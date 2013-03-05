@@ -1,0 +1,25 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "ejs": "*",
+    "stylus": "*",
+    "mongodb": ">= 0.9.6-7",
+    "mongoose": "*",
+    "jasmine-node": "*",
+    "jquery": "*",
+    "request": "*",
+    "buffers": "*",
+    "emailjs": "*",
+    "async": "*"
+  }
+}
