@@ -7,20 +7,21 @@ define([
     var initialize = function(){
         var AppRouter = Backbone.Router.extend({
             routes:{
-            "home/:id": "homePage",
+            "about": "homePage",
             "*actions":"defaultRoute"
             },
             defaultRoute:function()
             {
+                this.homePage();
+            },
+            homePage: function(){
                 $.tmpload({
                     url: './templates/homepage.html',
                     tplWrapper: _.template,
                     onLoad: function (compiledTpl) {
-                        $('#container').html(compiledTpl());
+                        $('#templateSection').html(compiledTpl());
                     }
                 });
-            },
-            homePage: function(){
             }
         });
         var appRouter = new AppRouter();

@@ -197,8 +197,8 @@ nav.header ul {
 nav.header li{
 	float:left;
 	background:url(../images/nav-li-bg.gif) 0 5px no-repeat;
-	padding-left:42px;
-	margin-left:82px;
+	padding-left:35px;
+	margin-left:35px;
 	font-family:'CaviarDreamsRegular';
 	text-transform:uppercase;
 	font-size:14px;
@@ -208,7 +208,7 @@ nav.header li{
 nav.header li:first-child{
 	background:none;
 	margin-left:0;
-	padding-left:73px;
+	padding-left:35px;
 }
 
 nav.header li a {
@@ -221,7 +221,7 @@ nav.header li:hover, nav.header li.current {
 }
 /*HOVER*/
 nav.header li a:hover, nav.header li.current a {
-	color:#8fc122;
+	color:rgb(224, 33, 33);
 }
 
 .link{
@@ -499,7 +499,7 @@ nav.header li a:hover, nav.header li.current a {
 	margin:19px 0 45px 0;
 }
 footer{
-	border-bottom:#8fc122 5px solid;
+	border-bottom:rgb(224, 33, 33) 5px solid;
 	position:relative;
 }
 footer .inner{
